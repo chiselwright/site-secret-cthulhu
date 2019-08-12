@@ -1,0 +1,2 @@
+#!/bin/bash
+bundle exec jekyll serve --host docking-station.chizography.net --livereload
