@@ -3,10 +3,42 @@
 
 @import "minima";
 
+$primary-color:         white;
+
+/* SCSS overrides in assets/main.scss */
+
 body {
-    background-color: #008000;
+    background-color:   #008000;
 }
 
-.chisel {
-    color: red;
+.site-title, .site-title:visited {
+    color:         $primary-color;
+}
+
+.footer-heading {
+    color:         $primary-color;
+}
+
+.site-nav .page-link {
+    color:         $primary-color;
+}
+
+li.p-name {
+    color:         $primary-color;
+}
+
+a.u-email {
+    color:         $primary-color;
+}
+
+span.username {
+    color:         $primary-color;
+}
+
+a:visited {
+    color:         $primary-color;
+}
+
+.fa-twitter {
+    color:          black;
 }
