@@ -10,6 +10,7 @@ RUN     bundle install
 
 COPY    .            /srv/jekyll/
 
+ENV     JEKYLL_ENV      production
 RUN     jekyll build --destination /tmp/site
 RUN     ls -larth /tmp/site
 
