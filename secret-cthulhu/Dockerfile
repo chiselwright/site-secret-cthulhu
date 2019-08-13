@@ -2,7 +2,7 @@ FROM jekyll/jekyll:latest as jekyll
 
 WORKDIR /srv/jekyll/
 
-COPY    Gemfile      /srv/jekyll/Gemfile
+COPY    Gemfile*     /srv/jekyll/
 RUN     bundle install
 
 COPY    .            /srv/jekyll/
