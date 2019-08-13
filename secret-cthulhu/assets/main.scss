@@ -4,34 +4,26 @@
 @import "minima";
 
 $primary-color:         white;
+$off-white:             #f2eee4;
+$background-green:      #287233;
 
 /* SCSS overrides in assets/main.scss */
 
 body {
-    background-color:   #008000;
+    background-color:   $background-green;
+    color:              $off-white;
 }
 
-.site-title, .site-title:visited {
-    color:         $primary-color;
-}
-
-.footer-heading {
-    color:         $primary-color;
+.site-nav {
+    background-color:   $background-green;
+    color:              $off-white;
 }
 
 .site-nav .page-link {
-    color:         $primary-color;
+    color:              $off-white;
 }
 
-li.p-name {
-    color:         $primary-color;
-}
-
-a.u-email {
-    color:         $primary-color;
-}
-
-span.username {
+.site-title, .site-title:visited {
     color:         $primary-color;
 }
 
@@ -41,4 +33,25 @@ a:visited {
 
 .fa-twitter {
     color:          black;
+}
+
+p.p-justified {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+h2.footer-heading {
+    display: none;
+}
+
+.footer-col > p {
+    color:              $off-white;
+}
+
+.p-name {
+    color:              $off-white;
+}
+
+li > a {
+    color:         $primary-color;
 }
