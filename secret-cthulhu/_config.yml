@@ -1,4 +1,5 @@
-host: secret-cthulhu.com
+# what you get for "local dev"
+host: dev.secret-cthulhu.com
 port: 4884
 strict_front_matter: true
 #
