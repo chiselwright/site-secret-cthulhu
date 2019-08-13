@@ -23,7 +23,7 @@ This is the original version we produced, and is essentially Secret Hitler
 rethemed.  We do not recommend you purchase this version and would nudge you
 gently towards the Full Package.
 
-* [<i class="fas fa-shopping-cart"></i> Buy Now](https://www.ivorygraphics.co.uk/shop/games/2605/secret_cthulhu)
+* [<i class="fas fa-shopping-cart"></i> Buy Now (&pound;32.00 + shipping)](https://www.ivorygraphics.co.uk/shop/games/2605/secret_cthulhu)
 
 ### The Chaos Deck
 
@@ -33,4 +33,4 @@ copy of Simply Rethemed and would like to upgrade to the Full Package.
 You might wish to visit [the download section](/downloads) for an updated copy
 of the rulebook.
 
-* <i class="fas fa-shopping-cart"></i> (coming soon)
+* [<i class="fas fa-shopping-cart"></i> Buy Now (&pound;5.81 + shipping)](https://www.ivorygraphics.co.uk/shop/games/3780/secret_cthulhu_chaos_deck)
