@@ -12,10 +12,10 @@ full package (v4 or later).
 
 ### Full Package
 
-(coming soon)
-
 This is what we now consider the full version on the game. It includes the
 latest artwork, and most importantly, the Chaos Deck.
+
+* <i class="fas fa-shopping-cart"></i> (coming soon)
 
 ### Simply Rethemed
 
@@ -33,4 +33,4 @@ copy of Simply Rethemed and would like to upgrade to the Full Package.
 You might wish to visit [the download section](/downloads) for an updated copy
 of the rulebook.
 
-* <i class="fas fa-shopping-cart"></i> Buy Now
+* <i class="fas fa-shopping-cart"></i> (coming soon)
