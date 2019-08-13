@@ -1,8 +1,11 @@
 FROM jekyll/jekyll:latest as jekyll
 
-WORKDIR /srv/jekyll/
+WORKDIR             /srv/jekyll/
 
-COPY    Gemfile*     /srv/jekyll/
+ENV GEM_HOME        /tmp/gems
+ENV PATH            /tmp/gems/bin:$PATH
+
+COPY    Gemfile     /srv/jekyll/
 RUN     bundle install
 
 COPY    .            /srv/jekyll/
