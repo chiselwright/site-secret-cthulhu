@@ -24,3 +24,4 @@ tags
 
 # End of https://www.gitignore.io/api/vim
 /_site/
+/.sass-cache/
