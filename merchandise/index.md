@@ -6,7 +6,7 @@ weight: 100
 menufontawesome: fal fa-tshirt
 ---
 
-<div id="shop">Spreadshop loading...</div>
+<div id="shop"><i class="fad fa-spinner"></i> Spreadshop loading...</div>
 
 <script>
     var spread_shop_config = {
