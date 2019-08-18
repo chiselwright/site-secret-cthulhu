@@ -2,6 +2,8 @@
 layout: page
 permalink: /merchandise/
 title: Merchandise
+weight: 100
+menufontawesome: fal fa-tshirt
 ---
 
 <div id="shop">Spreadshop loading...</div>

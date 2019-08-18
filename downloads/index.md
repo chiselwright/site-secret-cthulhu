@@ -2,6 +2,8 @@
 layout: page
 permalink: /downloads/
 title: Downloads
+weight: 150
+menufontawesome: fal fa-file-download
 ---
 
 # Print &amp; Play

@@ -2,6 +2,8 @@
 layout: page
 permalink: /purchase/
 title: Purchase
+weight: 0
+menufontawesome: fal fa-cart-plus
 ---
 
 ## Purchase Now!
