@@ -68,7 +68,7 @@ DEPENDENCIES
   jekyll-feed (~> 0.6)
   jekyll-watch
   liquid-c
-  minima (~> 2.0)
+  minima (~> 2.5.1)
 
 BUNDLED WITH
    2.0.2
