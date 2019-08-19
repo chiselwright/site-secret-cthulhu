@@ -7,7 +7,7 @@ menufontawesome: fal fa-smile-plus
 ---
 
 The physical version available for [purchase](/purchase) is missing some very
-useful components which aren't available throught eh online shop due to
+useful components which aren't available through the online shop due to
 limitations in component choice.
 
 None of the following are *essential* for the game, but we believe that you
