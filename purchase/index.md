@@ -17,7 +17,7 @@ We are selling **at cost**. There is zero markup on sales through this site.
 This is what we now consider the full version on the game. It includes the
 latest artwork, and most importantly, the Chaos Deck.
 
-* <i class="fas fa-shopping-cart"></i> (coming soon)
+* [<i class="fas fa-shopping-cart"></i> Buy Now (&pound;38.87 + shipping)](https://www.ivorygraphics.co.uk/shop/games/4267/secret_cthulhu__full_package){:target="sc-purchase"}
 
 ### <i class="far fa-dice-five"></i> Simply Rethemed
 
