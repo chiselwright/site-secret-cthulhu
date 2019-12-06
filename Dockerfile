@@ -1,23 +1,13 @@
-FROM jekyll/jekyll:latest as jekyll
+FROM jekyll-base:composed as jekyll-composed
 
-WORKDIR             /srv/jekyll/
-
-ENV GEM_HOME        /tmp/gems
-ENV PATH            /tmp/gems/bin:$PATH
-
-COPY    Gemfile     /srv/jekyll/
-RUN     bundle install
-
-COPY    .            /srv/jekyll/
-
-ENV     JEKYLL_ENV      production
-RUN     jekyll build --destination /tmp/site
-RUN     ls -larth /tmp/site
+# inherit lots of ONBUILD magic
+# if we haven't changed anything upstream our generated site will be output to
+# /tmp/jekyll/dest/
 
 #-----
 FROM    kyma/docker-nginx
 
-COPY --from=jekyll /tmp/site/ /var/www
-RUN     ls -l /var/www
+COPY --from=jekyll-composed /tmp/jekyll/dest/ /var/www
+RUN     ls -lah /var/www
 
 CMD     'nginx'
