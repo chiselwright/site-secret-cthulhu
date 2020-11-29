@@ -4,6 +4,8 @@ FROM chizcw/jekyll-site-base:4105a566 as jekyll-composed
 # if we haven't changed anything upstream our generated site will be output to
 # /tmp/jekyll/dest/
 
+RUN echo $GEM_HOME
+
 #-----
 FROM    kyma/docker-nginx
 
