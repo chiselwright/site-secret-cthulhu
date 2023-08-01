@@ -7,7 +7,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 4.1.1"
+gem "jekyll", "~> 4.3.2"
 # https://github.com/jekyll/jekyll/pull/7948
 #gem "jekyll", github: "jekyll/jekyll"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
@@ -22,7 +22,7 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
 end
 
-gem "bundler", "~> 2.1.4"
+#gem "bundler", "~> 2.1.4"
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
