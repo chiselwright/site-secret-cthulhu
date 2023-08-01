@@ -1,3 +1,10 @@
+PATH
+  remote: #jekyll-theme-hydejack
+  specs:
+    jekyll-theme-hydejack (9.1.6)
+      jekyll (>= 3.8, < 5.0)
+      jekyll-include-cache (~> 0.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -32,6 +39,8 @@ GEM
       terminal-table (>= 1.8, < 4.0)
       webrick (~> 1.7)
     jekyll-feed (0.17.0)
+      jekyll (>= 3.7, < 5.0)
+    jekyll-include-cache (0.2.1)
       jekyll (>= 3.7, < 5.0)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
@@ -90,10 +99,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler
   jekyll (~> 4.3.2)
   jekyll-feed (~> 0.12)
   jekyll-sitemap
   jekyll-target-blank
+  jekyll-theme-hydejack!
   minima (~> 2.5)
   tzinfo (~> 1.2)
   tzinfo-data

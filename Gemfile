@@ -22,7 +22,7 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
 end
 
-#gem "bundler", "~> 2.1.4"
+gem "bundler"
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
@@ -33,3 +33,7 @@ end
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
+
+# https://hydejack.com/docs/install/
+gem "jekyll-theme-hydejack", path: "./#jekyll-theme-hydejack"
+
