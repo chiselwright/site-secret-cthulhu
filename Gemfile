@@ -1,4 +1,8 @@
 source "https://rubygems.org"
+
+ruby '~> 3.1'
+
+
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
@@ -7,7 +11,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 4.1.1"
+gem "jekyll", "~> 4.3"
 # https://github.com/jekyll/jekyll/pull/7948
 #gem "jekyll", github: "jekyll/jekyll"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
@@ -22,7 +26,7 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
 end
 
-gem "bundler", "~> 2.1.4"
+gem "bundler", "~> 2.3.26"
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
@@ -33,3 +37,7 @@ end
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
+
+# https://hydejack.com/docs/install/
+gem "jekyll-theme-hydejack", path: "./#jekyll-theme-hydejack"
+
