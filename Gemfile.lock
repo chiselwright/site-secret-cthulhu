@@ -100,7 +100,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 2.3.26)
-  jekyll (~> 4.3.2)
+  jekyll (~> 4.3)
   jekyll-feed (~> 0.12)
   jekyll-sitemap
   jekyll-target-blank
@@ -109,6 +109,9 @@ DEPENDENCIES
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
+
+RUBY VERSION
+   ruby 3.1.3p185
 
 BUNDLED WITH
    2.3.26

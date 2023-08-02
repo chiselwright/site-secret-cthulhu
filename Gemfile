@@ -11,7 +11,7 @@ ruby '~> 3.1'
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 4.3.2"
+gem "jekyll", "~> 4.3"
 # https://github.com/jekyll/jekyll/pull/7948
 #gem "jekyll", github: "jekyll/jekyll"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
