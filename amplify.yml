@@ -11,7 +11,7 @@ frontend:
         - gem --version
         - bundle install
         - bundle exec jekyll --version
-        - bundle exec jekyll build
+        - bundle exec jekyll build -s source
   artifacts:
     baseDirectory: _site
     files:
